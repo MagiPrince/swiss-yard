@@ -1,0 +1,23 @@
+Gare Cornavin : 8587057
+Rive : 8587061
+Place de Neuve : 8592885
+Aéroport : 8592775
+Palettes : 8592988
+Hôpital : 8592837
+Bel-Air : 8587387
+Versoix-Gare : 8587095
+Plainpalais : 8587907
+Molard : 8530699
+Genève-Plage : 8530702
+Bachet-de-Pesay : 8587075
+Onex-Cité : 8593030
+Les Esserts : 8587418
+Nations : 8587058
+ZIPLO : 8593073
+ZIMEYSA : 8501000
+Stand : 8592906
+Meyrin-Gravière : 8594961
+P+R Bernex : 8592660
+P+R Etoile : 8592679
+Châtelaine : 8593152
+Prairie : 8592890

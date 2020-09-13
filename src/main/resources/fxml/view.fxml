@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="swissYardView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.hepia.swissyard.view.ViewController">
+   <center>
+      <Canvas fx:id="mapCanvas" height="600.0" width="880.0" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <TextArea fx:id="logWindow" editable="false" prefHeight="120.0" prefWidth="1080.0" style="-fx-border-color: black; -fx-border-width: 2;" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></TextArea>
+   </top>
+   <right>
+      <ScrollPane prefHeight="600.0" prefWidth="200.0" style="-fx-border-color: black; -fx-border-width: 2;" BorderPane.alignment="CENTER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="changePlace" layoutX="41.0" layoutY="151.0" mnemonicParsing="false" onAction="#onChangePlaceClicked" text="Change Place" />
+                  <ComboBox fx:id="playerSelection" layoutX="19.0" layoutY="50.0" onAction="#onPlayerSelect" prefWidth="150.0" promptText="Selectionnez un joueur" />
+                  <Label layoutX="20.0" layoutY="27.0" text="Joueur:" />
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+   </right>
+</BorderPane>
